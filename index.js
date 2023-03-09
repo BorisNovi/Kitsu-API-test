@@ -53,7 +53,6 @@ function show(data) {
     let description = takeFrom.attributes.description;
     let coverImage = takeFrom.attributes.coverImage.original; // Не все разрешения есть. Сделай обход ошибки
     let posterImage = takeFrom.attributes.posterImage.original;
-    
 
     let doc = document.querySelector('.general')
     doc.innerHTML = '<div class="animePage">' +
