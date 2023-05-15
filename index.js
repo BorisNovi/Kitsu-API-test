@@ -60,18 +60,18 @@ function show(data) {
         '<img src="' + posterImage + '"></img>' +
         '<h4>' + name + '</h4>' +
         '<p>' + description + '</p>' +
-        '</div>'+
-        '<div class="animeDetails">'+
-        '<h3>Details</h3>'+
-        '<ul>'+
-        '<li>Age rating ' + takeFrom.attributes.ageRating +' '+ data.data[0].attributes.ageRatingGuide + '</li>'+
-        '<li>episodeCount ' + takeFrom.attributes.episodeCount + '</li>'+
-        '<li>startDate ' + takeFrom.attributes.startDate + '</li>'+
-        '<li>status ' + takeFrom.attributes.status + '</li>'+
-        '<li>averageRating ' + data.data[0].attributes.averageRating + '</li>'+
-        '<li>Age rating ' + data.data[0].attributes.ageRating + '</li>'+
-        '<li>Age rating ' + data.data[0].attributes.ageRating + '</li>'+
-        '<li>Age rating ' + data.data[0].attributes.ageRating + '</li>'+
-        '</ul>'+
+        '</div>' +
+        '<div class="animeDetails">' +
+        '<h3>Details</h3>' +
+        '<ul>' +
+        '<li>Age rating ' + takeFrom.attributes.ageRating + ' ' + data.data[0].attributes.ageRatingGuide + '</li>' +
+        '<li>episodeCount ' + takeFrom.attributes.episodeCount + '</li>' +
+        '<li>startDate ' + takeFrom.attributes.startDate + '</li>' +
+        '<li>status ' + takeFrom.attributes.status + '</li>' +
+        '<li>averageRating ' + data.data[0].attributes.averageRating + '</li>' +
+        '<li>Age rating ' + data.data[0].attributes.ageRating + '</li>' +
+        '<li>Age rating ' + data.data[0].attributes.ageRating + '</li>' +
+        '<li>Age rating ' + data.data[0].attributes.ageRating + '</li>' +
+        '</ul>' +
         '</div>'
 }
